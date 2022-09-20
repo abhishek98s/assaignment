@@ -1,0 +1,208 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin:0;
+    font-size: 1.1rem;
+}
+
+.logo{
+    max-width: 3rem;
+    font-size:larger;
+    margin: 1rem 1rem;
+    
+}
+
+.main-blue{
+    color: #4caccf;
+    margin-left: 14px;
+}
+
+.list{
+    list-style-type: none;
+}
+.top{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 0.3rem solid #f5f4f4;
+}
+
+main{
+    background-color: #f9f9f9;
+}
+
+body {
+    display:grid;
+    grid-template-rows: 10rem 1fr;
+}
+
+.material-symbols-outlined{
+    color: red;
+    height: 3px;
+   }
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.nav .list a{
+    color: #0311ee;
+    font-weight: bold;
+}
+
+.img-p img{
+    max-width: 200px;
+    height: 70%;
+}
+
+.img-p{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+}
+
+.slogan{
+    margin:auto;
+}
+
+.article{
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-bottom: 1rem;
+}
+
+.article img{
+    margin:auto;
+    min-width: 200px;
+    border-radius: 8px;
+}
+
+.article h3{
+    display: flex;
+    justify-content: center;
+    min-width: 200px;   
+}
+
+.article p{
+    display: grid;
+    justify-content: center;
+    min-width: 150px;   
+    margin: 0.5rem ;
+}
+
+.article button{
+    width: 8em;
+    margin: auto;
+    color: #4caccf;
+}
+
+article h1{
+    margin: 0.5rem;
+    text-align: center;
+}
+
+article p{
+    margin: 0.5rem;
+}
+
+.Read{
+    color: #daa569;
+    margin: 0.5rem;
+    text-decoration:underline;
+}
+
+.border{
+    border-bottom: 1px solid;
+    margin: 1rem;
+    list-style-type: none;
+}
+
+.border a{
+    color: #4caccf;
+}
+
+article a{
+    margin: 0.5rem;
+    width: 2rem;
+    color: #4caccf;
+    text-align:start;
+}
+
+.article3{
+    text-align: justify;
+}
+
+.rea{
+    color: #daa569;
+    margin: 0.5rem;
+    text-decoration:underline;
+}
+
+footer{
+    margin:2rem
+}
+
+.log{
+    color: red;
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+        display:grid;
+        grid-template-rows: 6rem 1fr;
+    }
+
+    .logo{
+        font-size: 1.4rem;
+    } 
+
+    .top{
+        display: grid;
+        grid-template-columns: 2fr 1.5fr;
+        height: 7rem;
+        margin: 0 6%;
+    }
+
+    .grid-top{
+        display: grid;
+        grid-template-rows:2rem 2rem 2rem;
+        grid-template-areas: "s" "ss" "sss";
+    }   
+
+    .grid-top div a{
+        font-size: 16px;
+    }
+
+    .top-right{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 2rem;
+        height: 1.5rem;
+    }
+
+    .nav{
+        position: relative;
+        top: 20px;
+        padding: 12px;
+    }
+
+   .bor{
+    border-left: 1px solid red;
+    padding: 0 1rem
+   }
+
+   .img-p{
+    margin: 2rem 0;
+   }
+
+   .material-symbols-outlined{
+    color: red;
+    height: 3px;
+   }
+
+   .log{
+    font-size: 1.1rem;
+    margin: 6px;
+
+   }
+}
