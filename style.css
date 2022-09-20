@@ -45,7 +45,7 @@ body {
 .icon{
     color: red;
     height: 3px;
-    
+
    }
 .nav{
     display: flex;
@@ -156,9 +156,14 @@ footer{
     color: red;
 }
 
+
+.ico{
+    position: relative;
+    top: 5px;
+
 }
 
-
+}
 
 
 @media only screen and (min-width: 600px) {
